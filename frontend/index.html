@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Customer Support Chatbot</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+
+        <div>
+            <h1>Customer Support</h1>
+
+            <p>
+                AI-powered customer assistance
+            </p>
+        </div>
+
+        <div class="header-actions">
+            <button
+                id="themeToggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Toggle theme"
+                title="Toggle theme"
+            >
+                <span class="theme-icon">🌙</span>
+            </button>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Online
+            </div>
+        </div>
+
+    </header>
+
+
+    <main
+        id="chat"
+        class="chat"
+    >
+
+        <div class="message bot">
+
+            <div class="avatar">
+                AI
+            </div>
+
+            <div class="bubble">
+
+                Hello! 👋
+
+                <br><br>
+
+                Welcome to customer support.
+                How can I help you today?
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <div
+        id="typing"
+        class="typing hidden"
+    >
+        AI is typing...
+    </div>
+
+
+    <footer class="input-area">
+
+        <input
+            id="messageInput"
+            type="text"
+            placeholder="Type your message..."
+            autocomplete="off"
+        >
+
+        <button
+            id="sendButton"
+        >
+            Send
+        </button>
+
+    </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/chatbot.db
+
+.env
+
+.vscode/
+.idea/
+
+*.log
